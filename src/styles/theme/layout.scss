@@ -1,0 +1,33 @@
+body {
+    background-color: #f8fafb;
+}
+
+.w-full {
+    width: 100% !important;
+}
+
+.content {
+    background:white !important;
+    margin: 0;
+    min-height: 280;
+    padding: 24 !important; 
+}
+
+.navbar {
+    background: $secondary-color;
+
+    .nav-item  {
+        color:white;
+    }
+ 
+
+    .logo img {
+        max-height: 40px;
+        vertical-align: center;
+        margin-bottom: 5px;
+    }
+}
+
+.secondary-color {
+    color: $secondary-color !important;
+}

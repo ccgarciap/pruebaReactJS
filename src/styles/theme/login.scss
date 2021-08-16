@@ -1,0 +1,58 @@
+.form-block {
+    background: white;
+    max-width: 500px;
+    padding: 20px 60px 30px 60px;
+    width: 500px;
+}
+
+.login {
+
+    label {
+        color: $secondary-color;
+    }
+
+    button.submit {
+        background: $primary-color;
+        border-color: $primary-color;
+        font-weight: bold;
+        height: 54px;
+        border-radius: 10em;
+    }
+}
+
+.link {
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.bg-tertiary {
+    background: $primary-color;
+    bottom: 0;
+    height: 320px;
+    position: absolute;
+    z-index: -1;
+
+    .b-logo {
+        bottom: 0;
+        left: 25%;
+        position: absolute;
+        width: 280px;
+    }
+
+    .description {
+        color: $secondary-color;
+        font-size: 3em;
+        margin-top: 20%;
+    }
+
+    .people {
+        position: absolute;
+        max-width: 300px;
+        bottom: 0;
+        right: 10%;
+    }
+}
+
+
+  
